@@ -1,0 +1,21 @@
+{
+    "name": "ignek/event-sourcing",
+    "description": "Helpers classes for event sourcing",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ignacio El Kadre",
+            "email": "ignacio.elkadre@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Ignek\\": "src/"
+        }
+    },
+    "require": {
+        "carlosbuenosvinos/ddd": "^1.6"
+    }
+}
